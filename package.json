@@ -1,0 +1,41 @@
+{
+  "name": "ethio-agency-hub",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "https://yourgithubusername.github.io/ethio-agency-hub",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.16.0",
+    "axios": "^1.5.0",
+    "@vercel/analytics": "^1.1.2",
+    "@vercel/speed-insights": "^1.0.8",
+    "@sentry/react": "^7.80.0",
+    "@sentry/tracing": "^7.80.0",
+    "web-vitals": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.3",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "vite": "^4.4.5",
+    "gh-pages": "^6.1.1",
+    "vite-plugin-compression2": "^0.9.1",
+    "rollup-plugin-visualizer": "^5.12.0",
+    "vite-bundle-visualizer": "^0.4.1",
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
+}
